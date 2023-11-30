@@ -630,7 +630,7 @@ void initialize_memory(void) {
     memset(fopen_table, 0, sizeof(fopen_table));
     //初始化组描述符
     strcpy(gdt.bg_volume_name, VOLUME_NAME);
-    strcpy(gdt.bg_password, "666666");
+    strcpy(gdt.bg_password, "123");
     gdt.bg_block_bitmap = 1;
     gdt.bg_inode_bitmap = 2;
     gdt.bg_inode_table = 3;
